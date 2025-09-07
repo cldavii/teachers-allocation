@@ -1,0 +1,23 @@
+{
+  "name": "teachers-allocation",
+  "version": "1.0.0",
+  "description": "Sistema de atribuição de professores nas disciplinas corretas",
+  "homepage": "https://github.com/cldavii/teachers-allocation#readme",
+  "bugs": {
+    "url": "https://github.com/cldavii/teachers-allocation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cldavii/teachers-allocation.git"
+  },
+  "license": "ISC",
+  "author": "Davi Felipe Silva Clemente",
+  "type": "commonjs",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "electron . --disable-gpu"
+  },
+  "devDependencies": {
+    "electron": "^38.0.0"
+  }
+}
