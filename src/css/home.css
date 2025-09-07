@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+main nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+
+main nav a {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 8px;
+
+    text-decoration: none;
+    background-color: #8f8f8f75;
+    color: white;
+
+    transition: 0.3s ease-in-out;
+}
+
+main nav a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+    background-color: transparent;
+    color: cyan;
+    border: dashed cyan;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .dev-title {
+    color: red;
+}
+
+footer .dev-name {
+    color: cyan;
+}
