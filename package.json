@@ -13,11 +13,12 @@
   "license": "ISC",
   "author": "Davi Felipe Silva Clemente",
   "type": "commonjs",
-  "main": "js/main.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron . --disable-gpu"
   },
   "devDependencies": {
-    "electron": "^38.0.0"
+    "electron": "^38.0.0",
+    "electron-reloader": "^1.2.3"
   }
 }
