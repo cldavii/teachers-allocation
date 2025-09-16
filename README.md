@@ -1,2 +1,2 @@
 # teachers-allocation
-Sistema de atribuição de professores nas disciplinas corretas
+Sistema para associar professores nas disciplinas corretas
